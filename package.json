@@ -1,6 +1,6 @@
 {
   "name": "brain-games-yuriysho",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -22,5 +22,7 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
