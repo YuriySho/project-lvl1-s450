@@ -2,7 +2,10 @@
   "name": "brain-games-yuriysho",
   "version": "1.0.1",
   "description": "Games for your brain",
-  "keywords": "events",
+  "keywords": [
+    "games",
+    "console-games"
+  ],
   "main": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
