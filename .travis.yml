@@ -1,6 +1,13 @@
 language: node_js
+
 node_js:
   - node
 
 script:
   - make lint
+
+cache:
+  directories:
+    - "node_modules"
+
+install: npm install
