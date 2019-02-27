@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/YuriySho/project-lvl1-s450.svg?branch=master)](https://travis-ci.org/YuriySho/project-lvl1-s450)
 
- https://asciinema.org/a/hSVlBgTmOvExl2o2nXt2cv3fT
+ <a href="https://asciinema.org/a/hSVlBgTmOvExl2o2nXt2cv3fT"><img src="https://asciinema.org/a/14.png" width="836"/></a>
 
 
 My first project
