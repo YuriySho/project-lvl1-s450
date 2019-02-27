@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/YuriySho/project-lvl1-s450.svg?branch=master)](https://travis-ci.org/YuriySho/project-lvl1-s450)
 
+https://asciinema.org/connect/ff9eaefe-b76a-4c31-b1c5-f7d15dc9b57b
+
 
 My first project
-version 1.0.3
+version 1.1.0
