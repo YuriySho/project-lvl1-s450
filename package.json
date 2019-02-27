@@ -1,6 +1,6 @@
 {
   "name": "brain-games-yuriysho",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Games for your brain",
   "keywords": [
     "games",
@@ -8,14 +8,14 @@
   ],
   "main": "",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm run build"
   },
   "author": "Yuriy Shoshin",
