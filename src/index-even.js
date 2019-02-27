@@ -9,23 +9,24 @@ const attemptLimit = 3;
 export default () => {
   console.log('Welcome to the Brain Games!');
   console.log('Answer "yes" if number even otherwise answer "no"');
-  const askName = readlineSync.question('May I have your name?: ');
-  console.log(`Hello, ${askName}`);
+  const nameUser = readlineSync.question('May I have your name?: ');
+  console.log(`Hello, ${nameUser}`);
   const answer = (counter) => {
     if (counter === attemptLimit) {
-      console.log(`Congratulations, ${askName}`);
-      return true;
+      console.log(`Congratulations, ${nameUser}`);
+      return undefined;
     }
-    const number = getRandom(1, 100);
-    console.log(`Question: ${number}`);
-    const rightAnswer = isEven(number) ? 'yes' : 'no';
-    const getAnswerUser = readlineSync.question('Your answer: ');
-    if (rightAnswer === getAnswerUser) {
-      console.log('Correct!');
-      return answer(counter + 1);
+    const question = getRandom(1, 100);
+    console.log(`Question: ${question}`);
+    const rightAnswer = isEven(question) ? 'yes' : 'no';
+    const userAnswer = readlineSync.question('Your answer: ');
+    if (rightAnswer !== userAnswer) {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
+      console.log(`Let's try again, ${nameUser}!`);
+      return undefined;
     }
-    console.log(`'${getAnswerUser}' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${askName}!`);
-    return false;
+    console.log('Correct!');
+    return answer(counter + 1);
   };
-  return answer(0);
+  answer(0);
 };
