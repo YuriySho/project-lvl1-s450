@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
-
-const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import getRandom from './utils';
 
 const isEven = num => num % 2 === 0;
 
