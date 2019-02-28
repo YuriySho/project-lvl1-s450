@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getRandom from './utils';
+const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const isEven = num => num % 2 === 0;
 
@@ -13,7 +13,7 @@ export default () => {
   const answer = (counter) => {
     if (counter === attemptLimit) {
       console.log(`Congratulations, ${nameUser}`);
-      return undefined;
+      return;
     }
     const question = getRandom(1, 100);
     console.log(`Question: ${question}`);
@@ -22,10 +22,12 @@ export default () => {
     if (rightAnswer !== userAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${nameUser}!`);
-      return undefined;
+      return;
     }
     console.log('Correct!');
-    return answer(counter + 1);
+    answer(counter + 1);
+    return;
   };
   answer(0);
+  return;
 };
