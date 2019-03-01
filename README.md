@@ -1,5 +1,5 @@
 Brain-games!
-version 1.2.9
+version 1.2.10
 
 <a href="https://codeclimate.com/github/YuriySho/project-lvl1-s450/maintainability"><img src="https://api.codeclimate.com/v1/badges/1038860f400832da83b5/maintainability" /></a>
 
@@ -11,11 +11,11 @@ version 1.2.9
 
 2. brain-calc: 'What is the result of the expression?'
 
-<a href="https://asciinema.org/a/66EqbEXhO4uYJyTeqfdVkhGKT"><img src="https://asciinema.org/a/14.png" width="200"/></a>
+<a href="https://asciinema.org/a/PMoUgvv1UEFpKIu4S4EO9nBiI"><img src="https://asciinema.org/a/14.png" width="200"/></a>
 
 3. brain-gdc: 'Find the greatest common divisor of given numbers.'
 
-<a href="https://asciinema.org/a/PMoUgvv1UEFpKIu4S4EO9nBiI"><img src="https://asciinema.org/a/14.png" width="200"/></a>
+<a href="https://asciinema.org/a/HtUpRaWNPd5omrQVjeWJh3e00"><img src="https://asciinema.org/a/14.png" width="200"/></a>
 
 4. brain-progression: 'What number is missing in the progression?'
 
