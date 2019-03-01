@@ -1,5 +1,5 @@
 My first project
-version 1.1.0
+version 1.2.8
 
 <a href="https://codeclimate.com/github/YuriySho/project-lvl1-s450/maintainability"><img src="https://api.codeclimate.com/v1/badges/1038860f400832da83b5/maintainability" /></a>
 
