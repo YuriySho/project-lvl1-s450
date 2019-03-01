@@ -5,7 +5,7 @@ const arrOperations = ['+', '-', '*'];
 const rule = 'What is the result of the expression?';
 
 const getGameData = () => {
-  const randOperation = arrOperations[rand];
+  const randOperation = arrOperations[getRandom(0, (arrOperations.length - 1))];
   const num1 = getRandom(0, 100);
   const num2 = getRandom(0, 100);
   const question = `${num1} ${randOperation} ${num2}`;
