@@ -3,8 +3,6 @@ import getRandom from '../utils';
 
 const rule = 'What number is missing in the progression?';
 
-const arr = [];
-
 const getGameData = () => {
   const firstNum = getRandom(0, 10);
   const stepProgression = getRandom(1, 10);

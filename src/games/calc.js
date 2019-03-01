@@ -2,7 +2,6 @@ import gameEngine from '..';
 import getRandom from '../utils';
 
 const arrOperations = ['+', '-', '*'];
-const rand = Math.floor(Math.random() * arrOperations.length);
 const rule = 'What is the result of the expression?';
 
 const getGameData = () => {
