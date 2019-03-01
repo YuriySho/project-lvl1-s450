@@ -1,5 +1,5 @@
 Brain-games!
-version 1.2.10
+version 1.3.0
 
 <a href="https://codeclimate.com/github/YuriySho/project-lvl1-s450/maintainability"><img src="https://api.codeclimate.com/v1/badges/1038860f400832da83b5/maintainability" /></a>
 
