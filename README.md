@@ -18,5 +18,6 @@ version 1.2.8
 <a href="https://asciinema.org/a/PMoUgvv1UEFpKIu4S4EO9nBiI"><img src="https://asciinema.org/a/14.png" width="200"/></a>
 
 4. brain-progression: 'What number is missing in the progression?'
+
 <a href="https://asciinema.org/a/Ch6qbrhH2grreplBZtSOfoI6M"><img src="https://asciinema.org/a/14.png" width="200"/></a>
 
