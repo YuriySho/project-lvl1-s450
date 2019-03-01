@@ -1,15 +1,17 @@
-import gameFlow from '..';
+import gameEngine from '..';
 import getRandom from '../utils';
 
 const arrOperations = ['+', '-', '*'];
+const rand = Math.floor(Math.random() * arrOperations.length);
 const rule = 'What is the result of the expression?';
+
 const getGameData = () => {
-  const randOperations = arrOperations[getRandom(0, 2)];
+  const randOperation = arrOperations[rand];
   const num1 = getRandom(0, 100);
   const num2 = getRandom(0, 100);
-  const question = `${num1} ${randOperations} ${num2}`;
+  const question = `${num1} ${randOperation} ${num2}`;
   let rightAnswer;
-  switch (randOperations) {
+  switch (randOperation) {
     case '+':
       rightAnswer = (num1 + num2).toString();
       break;
@@ -25,4 +27,4 @@ const getGameData = () => {
   return [question, rightAnswer];
 };
 
-export default () => gameFlow(rule, getGameData);
+export default () => gameEngine(rule, getGameData);
