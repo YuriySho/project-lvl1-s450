@@ -1,4 +1,4 @@
-My first project
+Brain-games!
 version 1.2.8
 
 <a href="https://codeclimate.com/github/YuriySho/project-lvl1-s450/maintainability"><img src="https://api.codeclimate.com/v1/badges/1038860f400832da83b5/maintainability" /></a>
@@ -15,8 +15,8 @@ version 1.2.8
 
 3. brain-gdc: 'Find the greatest common divisor of given numbers.'
 
-<a href="https://asciinema.org/a/PMoUgvv1UEFpKIu4S4EO9nBiI"><img src="https://asciinema.org/a/14.png" width="836"/></a>
+<a href="https://asciinema.org/a/PMoUgvv1UEFpKIu4S4EO9nBiI"><img src="https://asciinema.org/a/14.png" width="200"/></a>
 
 4. brain-progression: 'What number is missing in the progression?'
-<a href="https://asciinema.org/a/14"><img src="https://asciinema.org/a/14.png" width="836"/></a>
+<a href="https://asciinema.org/a/Ch6qbrhH2grreplBZtSOfoI6M"><img src="https://asciinema.org/a/14.png" width="200"/></a>
 
