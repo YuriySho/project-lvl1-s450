@@ -7,16 +7,12 @@ const isPrime = (num) => {
   if (num < 2) {
     return false;
   }
-  const divider = (i) => {
-    if (i >= num / 2) {
-      return true;
-    }
+  for (let i = 2; i <= num / 2; i += 1) {
     if (num % i === 0) {
       return false;
     }
-    return divider(i + 1);
-  };
-  return divider(2);
+  }
+  return true;
 };
 
 const getGameData = () => {
