@@ -1,6 +1,6 @@
 {
   "name": "brain-games-yuriysho",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Games for your brain",
   "keywords": [
     "games",
@@ -12,7 +12,8 @@
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
     "brain-nod": "dist/bin/brain-nod.js",
-    "brain-progression": "dist/bin/brain-progression.js"
+    "brain-progression": "dist/bin/brain-progression.js",
+    "brain-prime": "dist/bin/brain-prime.js"
   },
   "files": [
     "dist"
